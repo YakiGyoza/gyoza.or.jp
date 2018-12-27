@@ -1,0 +1,56 @@
+//
+// Variables
+//
+
+// width
+// -------------------------
+// Number
+$base_number: 890;
+$base_number_sub: 180;
+$base_number_sp: 640;
+
+// Base
+$base_width: $base_number + px;
+$base_width_sub: $base_number_sub + px;
+
+// Media Queries
+// $point_view_max: 2560px;
+$point_view: 1000px;
+$point_pc: $base_width;
+$point_sp: 767px;
+$point_min: 374px;
+
+// font
+// -------------------------
+$font_base: "Noto Sans JP", "Lucida Grande", "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN", Meiryo, メイリオ, sans-serif;
+
+// color
+// -------------------------
+$color_main: #3a2c20;
+$color_sub: #e5d3b8;
+$color_accent: #ae3b0b;
+
+$color_private: #671800;
+$color_corporate: #22385d;
+
+$color_member_01: #7a1835;
+$color_member_02: #bf4d2f;
+$color_member_03: #c39e2d;
+
+// link color
+// -------------------------
+$link_color: inherit;
+$link_color_hover: inherit;
+
+// ground color
+// -------------------------
+$ground_color: $color_sub;
+
+// text color
+// -------------------------
+$text_color_main: #333;
+
+
+// rollover value
+// -------------------------
+$opacity_value: .7;

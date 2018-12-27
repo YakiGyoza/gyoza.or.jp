@@ -1,18 +1,32 @@
+const config = require('./.contentful.json')
+
 module.exports = {
   /*
   ** Headers of the page
   */
   head: {
-    title: 'gyoza.or.jp',
+    title: '一般社団法人焼き餃子協会',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Nuxt.js project' }
+      { name: 'format-detection', content: 'telephone=no' },
+      { hid: 'description', name: 'description', content: '焼き餃子を日本の文化として世界に発信する。日本の様々な餃子を、多くの人に知ってもらう。' },
+      { property: 'og:image', content: 'http://www.gyoza.or.jp/img/ogp.png' },
+    ],
+    script: [
+      { src: '//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js' },
+      { src: '//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js' },
+      { src: '/assets/js/script.js' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Noto+Sans+JP' }
+    ],
   },
+  css: [
+    '@/assets/scss/_reset.scss',
+    '@/assets/scss/_utility.scss'
+  ],
   /*
   ** Customize the progress bar color
   */
@@ -34,6 +48,22 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  generate: {
+    fallback: true
+  },
+  env: {
+    CTF_SPACE_ID: config.CTF_SPACE_ID,
+    CTF_CDA_ACCESS_TOKEN: config.CTF_CDA_ACCESS_TOKEN,
+    CTF_PERSON_ID: config.CTF_PERSON_ID,
+    CTF_BLOG_POST_TYPE_ID: config.CTF_BLOG_POST_TYPE_ID
+  },
+  modules: [
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-131226277-1'
+    }],
+    ['nuxt-sass-resources-loader', [
+      '@/assets/scss/_variables.scss'
+    ]]
+  ]
 }
-
