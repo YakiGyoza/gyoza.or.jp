@@ -52,18 +52,13 @@ module.exports = {
   generate: {
     fallback: true
   },
-  env: {
-    CTF_SPACE_ID: config.CTF_SPACE_ID,
-    CTF_CDA_ACCESS_TOKEN: config.CTF_CDA_ACCESS_TOKEN,
-    CTF_PERSON_ID: config.CTF_PERSON_ID,
-    CTF_BLOG_POST_TYPE_ID: config.CTF_BLOG_POST_TYPE_ID
-  },
   modules: [
     ['@nuxtjs/google-analytics', {
       id: 'UA-131226277-1'
     }],
     ['nuxt-sass-resources-loader', [
       '@/assets/scss/_variables.scss'
-    ]]
+    ]],
+    ['@nuxtjs/dotenv']
   ]
 }
