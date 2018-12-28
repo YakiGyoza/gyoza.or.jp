@@ -1,5 +1,3 @@
-const config = require('./.contentful.json')
-
 module.exports = {
   /*
   ** Headers of the page
