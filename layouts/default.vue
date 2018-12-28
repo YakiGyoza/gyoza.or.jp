@@ -1,11 +1,17 @@
 <template>
-  <div class="container">
-    <HeaderNavi />
-    <main role="main">
-      <nuxt/>
-      <p class="pagetop"><a href="#">PAGE TOP</a></p>
-    </main>
-    <FooterNavi />
+  <div>
+    <input id="menuFlag" type="checkbox" />
+    <label class="menuTrigger" for="menuFlag">
+      <div class="button"><span></span></div>
+    </label>
+    <div class="container">
+      <HeaderNavi class="header" />
+      <main role="main">
+        <nuxt/>
+        <p class="pagetop"><a href="#">PAGE TOP</a></p>
+      </main>
+      <FooterNavi />
+    </div>
   </div>
 </template>
 
@@ -20,6 +26,93 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+#menuFlag {
+  display: none;
+}
+.menuTrigger {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+  @include vw('width',  76);
+  @include vw('height', 60);
+  @include mq() {
+    display: block;
+  }
+
+}
+
+#menuFlag ~ .menuTrigger > .button {
+  position: relative;
+  @include vw('width', 56);
+  @include vw('height', 40);
+  @include vw('margin', 10);
+
+  > span,
+  &::before,
+  &::after {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: calc(6 / #{$base_number_sp} * 100vw);
+    border-radius: calc(8 / #{$base_number_sp} * 100vw);
+    background-color: #fff;
+    transition: .3s;
+  }
+  > span {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  &::before,
+  &::after {
+    content: "";
+  }
+  &::before { top: 0;}
+  &::after { bottom: 0;}
+}
+
+#menuFlag:checked ~ .menuTrigger > .button {
+  span {
+    opacity: 0;
+  }
+  &::before {
+    transform: translateY(calc(17 / #{$base_number_sp} * 100vw)) rotate(-45deg);
+  }
+  &::after {
+    transform: translateY(calc(-17 / #{$base_number_sp} * 100vw)) rotate(45deg);
+  }
+}
+
+.header {
+  grid-area: header;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  width: $base_width_sub;
+  background-color: $color_main;
+  overflow: hidden;
+}
+
+@include mq() {
+  .header {
+    left: -$base_width_sub;
+  }
+}
+
+#menuFlag:checked ~ .container {
+  left: $base_width_sub;
+}
+#menuFlag:checked ~ .container > .header {
+  left: 0;
+}
+
+</style>
 
 <style lang="scss">
 html,
@@ -94,6 +187,9 @@ a {
 }
 
 .container {
+  position: relative;
+  top: 0;
+  left: 0;
   display: grid;
   grid-template-columns: $base_width_sub 1fr;
   grid-template-rows: minmax(max-content, 1fr) auto;
@@ -115,35 +211,6 @@ main {
 /* contents */
 .contents {
 	position: relative;
-
-	@media only screen and (max-width: $point_sp) {
-		padding-top: calc(170 / #{$base_number_sp} * 100vw);
-	}
-}
-
-/* tagline */
-.tagline {
-	position: absolute;
-	top: 7px;
-	right: 270px;
-	// right: 395px;
-	left: 20px;
-	z-index: 10;
-	color: #fff;
-
-	@media only screen and (max-width: $point_sp) {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		top: 0;
-		right: 0;
-		left: 0;
-		height: calc(50 / #{$base_number_sp} * 100vw);
-		color: #fff;
-		background-color: #000;
-		font-size: calc(20 / #{$base_number_sp} * 100vw);
-		text-align: center;
-	}
 }
 
 

@@ -16,7 +16,7 @@ module.exports = {
     script: [
       { src: '//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js' },
       { src: '//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js' },
-      { src: '/assets/js/script.js' }
+//      { src: '/assets/js/script.js' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

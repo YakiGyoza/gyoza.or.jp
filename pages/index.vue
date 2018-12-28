@@ -2,7 +2,7 @@
   <article class="contents">
     <TaglineArea />
     <MainVisual />
-    <NewsArea />
+    <NewsArea :topics="topics" />
     <AboutArea />
     <EntryArea />
     <ProjectArea />
@@ -21,6 +21,10 @@ import ProjectArea from '~/components/ProjectArea.vue'
 import ContactArea from '~/components/ContactArea.vue'
 import SitemapArea from '~/components/SitemapArea.vue'
 
+import {createClient} from '~/plugins/contentful.js'
+
+const client = createClient()
+
 export default {
   head: {
     bodyAttrs: {
@@ -36,16 +40,26 @@ export default {
     ProjectArea,
     ContactArea,
     SitemapArea
-  }
+  },
+  asyncData ({env}) {
+    return Promise.all([
+      client.getEntries({
+        'content_type': 'topics',
+        locale: 'ja',
+        order: '-sys.createdAt',
+        'limit': 3
+      })
+    ]).then(([topics]) => {
+      return {
+        topics: topics.items
+      }
+    }).catch(console.error)
+  },
 }
 </script>
 
 <style lang="scss" scoped>
 .contents {
 	position: relative;
-
-	@media only screen and (max-width: $point_sp) {
-		padding-top: calc(170 / #{$base_number_sp} * 100vw);
-	}
 }
 </style>

@@ -54,3 +54,21 @@ $text_color_main: #333;
 // rollover value
 // -------------------------
 $opacity_value: .7;
+
+// @mixin
+
+$breakpoints: (
+  'sp': 'screen and (max-width: 768px)',
+) !default;
+
+@mixin mq($breakpoint: sp) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
+
+@mixin vw($property, $n, $important:'') {
+  #{$property}: -moz-calc(#{$n} / #{$base_number_sp} * 100vw) #{$important};
+  #{$property}: -webkit-calc(#{$n} / #{$base_number_sp} * 100vw) #{$important};
+  #{$property}: calc(#{$n} / #{$base_number_sp} * 100vw) #{$important};
+}
