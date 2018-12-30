@@ -9,6 +9,7 @@ const config = {
 // export `createClient` to use it in page components
 module.exports = {
   createClient () {
+    console.log(config);
     return contentful.createClient(config)
   }
 }
