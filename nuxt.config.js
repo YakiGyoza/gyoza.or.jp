@@ -60,7 +60,6 @@ module.exports = {
     ['@nuxtjs/dotenv']
   ],
   plugins: [
-    '@/plugins/contentful',
     '@/plugins/vue-scrollto',
   ],
 }
