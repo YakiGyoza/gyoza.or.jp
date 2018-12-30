@@ -58,5 +58,9 @@ module.exports = {
       '@/assets/scss/_variables.scss'
     ]],
     ['@nuxtjs/dotenv']
-  ]
+  ],
+  plugins: [
+    '@/plugins/contentful',
+    '@/plugins/vue-scrollto',
+  ],
 }

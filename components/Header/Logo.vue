@@ -1,9 +1,9 @@
 <template>
   <h1 class="logo">
-    <a href="/">
+    <nuxt-link v-scroll-to="'#top'" to="/">
       <img src="/assets/img/common/logo.png" alt="" width="106" height="100">
       <p>一般社団法人<b>焼き餃子協会</b><span>Yaki Gyoza Association</span></p>
-    </a>
+    </nuxt-link>
   </h1>
 </template>
 
