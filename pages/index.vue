@@ -5,7 +5,7 @@
     <NewsArea :topics="topics" />
     <AboutArea />
     <EntryArea />
-    <ProjectArea />
+    <ProjectArea :projects="projects" />
     <ContactArea />
     <SitemapArea />
   </article>
@@ -43,15 +43,24 @@ export default {
   },
   asyncData ({env}) {
     return Promise.all([
+      // topics
       client.getEntries({
         'content_type': 'topics',
         locale: 'ja',
         order: '-sys.createdAt',
         'limit': 3
+      }),
+      // projects
+      client.getEntries({
+        'content_type': 'projects',
+        locale: 'ja',
+        order: '-sys.createdAt',
+        'limit': 3
       })
-    ]).then(([topics]) => {
+    ]).then(([topics, projects]) => {
       return {
-        topics: topics.items
+        topics:   topics.items,
+        projects: projects.items,
       }
     }).catch(console.error)
   },
