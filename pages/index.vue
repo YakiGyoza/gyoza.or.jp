@@ -1,7 +1,7 @@
 <template>
   <article class="contents">
-    <TaglineArea />
     <MainVisual />
+    <TaglineArea />
     <NewsArea :topics="topics" />
     <AboutArea />
     <EntryArea />

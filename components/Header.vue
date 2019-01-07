@@ -16,7 +16,7 @@
         <li><nuxt-link v-scroll-to="'#contact'" to="/">お問い合わせ</nuxt-link></li>
       </ul>
 
-      <HeaderLanguage />
+      <!--<HeaderLanguage />-->
       <HeaderSns />
     </nav>
 
@@ -53,12 +53,12 @@ export default {
 	top: 0;
 	bottom: 0;
 	left: 0;
-	z-index: 100;
+//	z-index: 100;
 	width: $base_width_sub;
 	background-color: $color_main;
   @include mq() {
-    position: absolute;
-		top: calc(50 / #{$base_number_sp} * 100vw);
+    position: relative;
+//		top: calc(50 / #{$base_number_sp} * 100vw);
 		right: 0;
 		bottom: auto;
 		width: auto;
@@ -162,7 +162,7 @@ export default {
       align-items: center;
       justify-content: center;
       position: relative;
-      z-index: 3;
+//      z-index: 3;
       height: 70px;
       padding-right: 10px;
       padding-left: 10px;
@@ -177,7 +177,7 @@ export default {
         top: 0;
         bottom: 0;
         left: -15%;
-        z-index: -1;
+//        z-index: -1;
         width: 0;
         background-color: $color_accent;
         transform: skew(-30deg);
@@ -200,7 +200,7 @@ export default {
       }
 
       &.is-active {
-        pointer-events: none;
+//        pointer-events: none;
         &::after {
           visibility: visible;
           opacity: 1;
@@ -223,7 +223,7 @@ export default {
           top: 50%;
           bottom: auto;
           left: calc(20 / #{$base_number_sp} * 100vw);
-          z-index: auto;
+//          z-index: auto;
           width: calc(24 / #{$base_number_sp} * 100vw)!important;
           height: calc(24 / #{$base_number_sp} * 100vw);
           border-radius: calc(24 / #{$base_number_sp} * 100vw);
@@ -251,7 +251,7 @@ export default {
 
 .nav-global {
   &.is-active {
-    pointer-events: none;
+//    pointer-events: none;
     &::after {
       visibility: visible;
       opacity: 1;

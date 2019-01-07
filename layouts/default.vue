@@ -187,24 +187,6 @@ main {
 		background-color: $color_sub;
 	}
 
-	&.-about {
-		position: relative;
-		z-index: 3;
-		background: url(/assets/img/top/about_bg@pc.jpg) center center no-repeat;
-		background-size: cover;
-
-		&::after {
-			content: "";
-			position: absolute;
-			top: 0;
-			right: 0;
-			bottom: 0;
-			left: 0;
-			z-index: -1;
-			background-color: rgba($color_main, .7);
-		}
-	}
-
 	&.-entry {}
 
 	&.-project {
@@ -224,12 +206,12 @@ main {
 	}
 
 	@media only screen and (max-width: $point_sp) {
-		margin-top: calc(-120 / #{$base_number_sp} * 100vw);
-		padding-top: calc(180 / #{$base_number_sp} * 100vw);
+//		margin-top: calc(-120 / #{$base_number_sp} * 100vw);
+//		padding-top: calc(180 / #{$base_number_sp} * 100vw);
 		padding-bottom: calc(80 / #{$base_number_sp} * 100vw);
 
 		.top & {
-			padding-top: calc(200 / #{$base_number_sp} * 100vw);
+//			padding-top: calc(200 / #{$base_number_sp} * 100vw);
 			padding-bottom: calc(100 / #{$base_number_sp} * 100vw);
 		}
 
@@ -242,24 +224,6 @@ main {
 
 		&__btn {
 			margin-top: calc(80 / #{$base_number_sp} * 100vw);
-		}
-
-		&.-about {
-			background: none;
-			&::before,
-			&::after {
-				top: calc(120 / #{$base_number_sp} * 100vw);
-			}
-			&::before {
-				content: "";
-				position: absolute;
-				right: 0;
-				bottom: 0;
-				left: 0;
-				z-index: -2;
-				background: url(/assets/img/top/about_bg@sp.jpg) center center no-repeat;
-				background-size: cover;
-			}
 		}
 
 		&.-project {

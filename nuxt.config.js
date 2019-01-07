@@ -51,13 +51,14 @@ module.exports = {
     fallback: true
   },
   modules: [
+    '@nuxtjs/markdownit',
     ['@nuxtjs/google-analytics', {
       id: 'UA-131226277-1'
     }],
     ['nuxt-sass-resources-loader', [
       '@/assets/scss/_variables.scss'
     ]],
-    ['@nuxtjs/dotenv']
+    ['@nuxtjs/dotenv'],
   ],
   plugins: [
     '@/plugins/vue-scrollto',
@@ -66,4 +67,7 @@ module.exports = {
     CTF_SPACE_ID: process.env.CTF_SPACE_ID,
     CTF_CDA_ACCESS_TOKEN: process.env.CTF_CDA_ACCESS_TOKEN
   },
+  markdownit: {
+    injected: true,
+  }
 }

@@ -24,6 +24,44 @@
 </template>
 
 <style lang="scss" scoped>
+.area-common {
+  position: relative;
+  z-index: 3;
+  background: url(/assets/img/top/about_bg@pc.jpg) center center no-repeat;
+  background-size: cover;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-color: rgba($color_main, .7);
+  }
+
+  @include mq() {
+    background: none;
+    &::before,
+    &::after {
+      top: 0;
+//      top: calc(120 / #{$base_number_sp} * 100vw);
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -2;
+      background: url(/assets/img/top/about_bg@sp.jpg) center center no-repeat;
+      background-size: cover;
+    }
+  }
+
+}
+
 .unit-about {
 	display: flex;
 	justify-content: space-between;
