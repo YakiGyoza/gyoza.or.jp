@@ -1,11 +1,15 @@
 <template>
-  <section id="contact" class="area-common -contact">
+  <section class="area-common -contact">
   <div class="wrap">
   <h2 class="headline -contact">お問い合わせ</h2>
 
   <ul class="list-contact">
-  <li><a href="#" target="_blank" class="-private">個人の方</a></li>
-  <li><a href="#" target="_blank" class="-corporate">法人・店舗の方</a></li>
+    <li>
+      <a href="https://share.hsforms.com/1cLvRzx1iTbCOdvDQF-N5fQ31zvo" target="_blank" class="-private">個人の方</a>
+    </li>
+    <li>
+      <a href="https://share.hsforms.com/1ohpGfLTRSnOaUqGMxMUwcQ31zvo" target="_blank" class="-corporate">法人・店舗の方</a>
+    </li>
   </ul>
 
   </div>

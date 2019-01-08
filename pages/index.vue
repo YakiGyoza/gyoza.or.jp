@@ -2,12 +2,12 @@
   <article class="contents">
     <MainVisual />
     <TaglineArea />
-    <NewsArea :topics="topics" />
-    <AboutArea />
-    <EntryArea />
-    <ProjectArea :projects="projects" />
-    <ContactArea />
-    <SitemapArea />
+    <NewsArea id="news" :topics="topics" />
+    <AboutArea　id="about" />
+    <EntryArea id="entry" />
+    <ProjectArea id="project" :projects="projects" />
+    <ContactArea id="contact" />
+    <SitemapArea id="sitemap" />
   </article>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <section id="sitemap" class="area-common -sitemap">
+  <section class="area-common -sitemap">
   <div class="wrap">
   <h2 class="headline -sitemap">サイトマップ</h2>
 
@@ -13,27 +13,27 @@
   </ul>
   </div> --><!-- /.column-sitemap__item -->
   <div class="column-sitemap__item">
-  <p class="column-sitemap__headline"><a href="/news/">お知らせ</a></p>
+  <p class="column-sitemap__headline"><nuxt-link to="/posts">お知らせ</nuxt-link></p>
   <ul class="column-sitemap__list">
-  <li><a href="#">TOPIC</a></li>
-  <li><a href="#">REPORT</a></li>
-  <li><a href="#">MEDIA</a></li>
+  <li><nuxt-link to="/posts">TOPIC</nuxt-link></li>
+  <li><nuxt-link to="/posts">REPORT</nuxt-link></li>
+  <li><nuxt-link to="/posts">MEDIA</nuxt-link></li>
   </ul><!-- /.column-sitemap__list -->
   </div><!-- /.column-sitemap__item -->
   <div class="column-sitemap__item">
-  <p class="column-sitemap__headline"><a href="#entry">入会案内</a></p>
+  <p class="column-sitemap__headline"><nuxt-link to="/" v-scroll-to="'#entry'">入会案内</nuxt-link></p>
   <ul class="column-sitemap__list">
-  <li><a href="#entry">会員特典</a></li>
-  <li><a href="#entryConditions">入会資格</a></li>
-  <li><a href="#entryBenefit">会員種別と特典について</a></li>
+  <li><nuxt-link to="/#entry" v-smooth-scroll>会員特典</nuxt-link></li>
+  <li><nuxt-link to="/#entryConditions" v-smooth-scroll>入会資格</nuxt-link></li>
+  <li><nuxt-link to="/#entryBenefit" v-smooth-scroll>会員種別と特典について</nuxt-link></li>
   </ul><!-- /.column-sitemap__list -->
   </div><!-- /.column-sitemap__item -->
   <div class="column-sitemap__item">
-  <p class="column-sitemap__headline"><a href="#contact">お問い合わせ</a></p>
+  <p class="column-sitemap__headline"><nuxt-link to="#contact" v-smooth-scroll>お問い合わせ</nuxt-link></p>
   <ul class="column-sitemap__list">
-  <li><a href="#" target="_blank">個人お問い合わせ</a></li>
-  <li><a href="#" target="_blank">法人お問いあわせ</a></li>
-  <li><a href="#" target="_blank">取材のお問い合わせ</a></li>
+  <li><a href="https://share.hsforms.com/1cLvRzx1iTbCOdvDQF-N5fQ31zvo" target="_blank">個人お問い合わせ</a></li>
+  <li><a href="https://share.hsforms.com/1ohpGfLTRSnOaUqGMxMUwcQ31zvo" target="_blank">法人お問いあわせ</a></li>
+  <li><a href="https://share.hsforms.com/1ohpGfLTRSnOaUqGMxMUwcQ31zvo" target="_blank">取材のお問い合わせ</a></li>
   </ul><!-- /.column-sitemap__list -->
   </div><!-- /.column-sitemap__item -->
   </div><!-- /.column-sitemap -->

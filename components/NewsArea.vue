@@ -1,5 +1,5 @@
 <template>
-  <section id="news" class="area-common -news">
+  <section class="area-common -news">
     <div class="wrap">
       <h2 class="headline -news"><span>お知らせ</span></h2>
       <div class="column-news-top">

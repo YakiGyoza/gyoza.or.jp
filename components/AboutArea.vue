@@ -1,5 +1,5 @@
 <template>
-  <section id="about" class="area-common -about">
+  <section class="area-common -about">
   <div class="wrap">
 
   <div class="unit-about">

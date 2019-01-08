@@ -7,8 +7,8 @@
       </h2>
       <p class="visual-top__text">焼き餃子協会は、美味しい餃子を<br>作る人と、美味しく焼く人、美味しく食べる人をつなげる団体です。</p>
       <ul class="visual-top__list">
-        <li><a href="#about">焼き餃子協会について</a></li>
-        <li><a href="#entry">入会案内</a></li>
+        <li><nuxt-link to="/#about" v-smooth-scroll>焼き餃子協会について</nuxt-link></li>
+        <li><nuxt-link to="/#entry" v-smooth-scroll>入会案内</nuxt-link></li>
       </ul>
     </div>
   </section>

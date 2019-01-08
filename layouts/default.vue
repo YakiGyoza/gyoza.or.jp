@@ -3,7 +3,7 @@
     <HeaderNavi />
     <main role="main">
       <nuxt classc="contents"/>
-      <p class="pagetop"><nuxt-link v-scroll-to="'#top'" to>PAGE TOP</nuxt-link></p>
+      <p class="pagetop"><nuxt-link to="#top" v-smooth-scroll>PAGE TOP</nuxt-link></p>
     </main>
     <FooterNavi />
   </div>

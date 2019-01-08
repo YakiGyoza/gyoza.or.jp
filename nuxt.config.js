@@ -61,7 +61,7 @@ module.exports = {
     ['@nuxtjs/dotenv'],
   ],
   plugins: [
-    '@/plugins/vue-scrollto',
+    '@/plugins/vue-smooth-scroll',
   ],
   env: {
     CTF_SPACE_ID: process.env.CTF_SPACE_ID,

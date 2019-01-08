@@ -10,10 +10,10 @@
 
     <nav class="nav-global" :class="{'is-active': isOpen}">
       <ul class="menu">
-        <li><nuxt-link v-scroll-to="'#about'" to="/">焼き餃子協会について</nuxt-link></li>
-        <li><nuxt-link v-scroll-to="'#news'" to="/">お知らせ</nuxt-link></li>
-        <li><nuxt-link v-scroll-to="'#entry'" to="/">入会案内</nuxt-link></li>
-        <li><nuxt-link v-scroll-to="'#contact'" to="/">お問い合わせ</nuxt-link></li>
+        <li><nuxt-link to="/#about" v-smooth-scroll>焼き餃子協会について</nuxt-link></li>
+        <li><nuxt-link to="/#news" v-smooth-scroll>お知らせ</nuxt-link></li>
+        <li><nuxt-link to="/#entry" v-smooth-scroll>入会案内</nuxt-link></li>
+        <li><nuxt-link to="/#contact"  v-smooth-scroll>お問い合わせ</nuxt-link></li>
       </ul>
 
       <!--<HeaderLanguage />-->

@@ -1,5 +1,5 @@
 <template>
-  <section id="entry" class="area-common -entry">
+  <section class="area-common -entry">
   <div class="wrap">
   <h2 class="headline -entry"><span>入会のご案内</span></h2>
   <p class="area-common__lead">焼き餃子協会は、焼き餃子に関連する業界間に向けて技術・情報支援を通して、<br class="display-pc">餃子を美味しく焼いて食べる日本の文化を世界の人々に楽しんでもらうことを目指しています。</p>
@@ -84,7 +84,7 @@
   </tr>
   <tr>
   <th>当サイトでの情報発信<span>新商品・プレスリリースを会員へ発信</span></th>
-  <td>&nbsp;</td>
+  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
   <td>&nbsp;</td>
   <td><img src="/assets/img/common/ic_check.png" alt=""></td>
   <td><img src="/assets/img/common/ic_check.png" alt=""></td>
@@ -156,7 +156,7 @@
   </tr>
   <tr>
   <th>当サイトでの情報発信<span>新商品・プレスリリースを会員へ発信</span></th>
-  <td>&nbsp;</td>
+  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
   </tr>
   <tr>
   <th>最新情報のメルマガ<span>業界関連最新情報をお届け</span></th>
@@ -389,13 +389,19 @@
 
   </div><!-- /.table-entry -->
 
-  <div class="area-common__btn"><a href="#" class="btn -default">入会はこちら</a></div>
+  <p class="note">入会方法等の詳細は、2019年1月下旬にご案内いたします。</p>
+  <div class="area-common__btn"><nuxt-link to="/#contact" class="btn -default" v-smooth-scroll>お問い合わせはこちら</nuxt-link></div>
 
   </div><!-- /.wrap -->
   </section><!-- /.area-common -->
 </template>
 
 <style lang="scss" scoped>
+.note {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-top: 50px;
+}
 .headline-entry {
 	display: flex;
 	align-items: center;

@@ -1,5 +1,5 @@
 <template>
-  <section id="project" class="area-common -project">
+  <section class="area-common -project">
     <div class="wrap">
       <h2 class="headline -project"><span>プロジェクト</span></h2>
       <div class="column-project">
