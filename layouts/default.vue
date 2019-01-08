@@ -4,6 +4,8 @@
     <main role="main">
       <nuxt classc="contents"/>
       <p class="pagetop"><nuxt-link to="#top" v-smooth-scroll>PAGE TOP</nuxt-link></p>
+      <ContactArea id="contact" />
+      <SitemapArea id="sitemap" />
     </main>
     <FooterNavi />
   </div>
@@ -12,11 +14,15 @@
 <script>
 import HeaderNavi from '~/components/Header.vue'
 import FooterNavi from '~/components/Footer.vue'
+import ContactArea from '~/components/ContactArea.vue'
+import SitemapArea from '~/components/SitemapArea.vue'
 
 export default {
   components: {
     HeaderNavi,
-    FooterNavi
+    FooterNavi,
+    ContactArea,
+    SitemapArea,
   },
 }
 </script>

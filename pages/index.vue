@@ -6,8 +6,6 @@
     <AboutArea　id="about" />
     <EntryArea id="entry" />
     <ProjectArea id="project" :projects="projects" />
-    <ContactArea id="contact" />
-    <SitemapArea id="sitemap" />
   </article>
 </template>
 
@@ -18,8 +16,6 @@ import NewsArea from '~/components/NewsArea.vue'
 import AboutArea from '~/components/AboutArea.vue'
 import EntryArea from '~/components/EntryArea.vue'
 import ProjectArea from '~/components/ProjectArea.vue'
-import ContactArea from '~/components/ContactArea.vue'
-import SitemapArea from '~/components/SitemapArea.vue'
 
 import {createClient} from '~/plugins/contentful.js'
 
@@ -38,8 +34,6 @@ export default {
     AboutArea,
     EntryArea,
     ProjectArea,
-    ContactArea,
-    SitemapArea
   },
   asyncData ({env}) {
     return Promise.all([

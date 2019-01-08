@@ -30,9 +30,6 @@
 import formatDate from 'date-fns/format'
 import { createClient } from '~/plugins/contentful.js'
 
-import ContactArea from '~/components/ContactArea.vue'
-import SitemapArea from '~/components/SitemapArea.vue'
-
 const client = createClient()
 
 export default {
@@ -60,10 +57,6 @@ export default {
       }
     })
     .catch(console.error)
-  },
-  components: {
-    ContactArea,
-    SitemapArea,
   },
 }
 </script>
