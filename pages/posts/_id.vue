@@ -1,52 +1,43 @@
 <template>
   <div class="contents" v-if="post">
-
-    <section class="visual-main">
-      <div class="wrap">
-        <div class="visual-main__contents">
-          <h1 class="visual-main__headline">{{ post.fields.title }}</h1>
-          <p class="date">{{ post.sys.createdAt | date }}</p>
-        </div>
-      </div>
-    </section>
-
-    <div class="image">
-      <img :src="post.fields.heroImage.fields.file.url||dummyImage" alt="" />
-    </div>
-
+    <EntryHeader
+      :title="post.fields.title"
+      :description="post.fields.description"
+      :type="post.sys.contentType.sys.id"
+      :createdAt="post.sys.createdAt"></EntryHeader>
     <div class="area-common">
       <div class="wrap">
-        <div class="body" v-html="$md.render(post.fields.body)"></div>
+        <HeroImage
+          :image="this.post.fields.heroImage.fields.file.url"></HeroImage>
+        <EntryBody
+          class="content"
+          :body="post.fields.body"></EntryBody>
       </div>
     </div>
-
-    <ContactArea id="contact" />
-    <SitemapArea id="sitemap" />
-
  </div>
 </template>
 
 <script>
-import formatDate from 'date-fns/format'
+import EntryHeader from '~/components/Entry/Header.vue'
+import EntryBody from '~/components/Entry/Body.vue'
+import HeroImage from '~/components/Entry/HeroImage.vue'
 import { createClient } from '~/plugins/contentful.js'
 
 const client = createClient()
 
 export default {
-  data() {
-    return {
-      dummyImage: require('~/assets/img/dummy.jpg')
-    }
-  },
-  filters: {
-    date: function (value) {
-      if ( !value ) value = 0
-      const d = new Date( value )
-      return formatDate( d, 'YYYY/MM/DD' )
-    },
-  },
   validate ({ params }) {
     return /^[0-9a-zA-Z]+$/.test(params.id)
+  },
+  head () {
+    return {
+      title: this.post.fields.title,
+      meta: [
+        { hid: 'og:title', name: 'og:title', content: this.post.fields.title },
+        { hid: 'description', name: 'description', content: this.post.fields.description },
+        { hid: 'og:image', name: 'og:image', content: this.post.fields.heroImage.fields.file.url },
+      ],
+    }
   },
   asyncData ({ params }) {
     return client
@@ -58,40 +49,16 @@ export default {
     })
     .catch(console.error)
   },
+  components: {
+    EntryHeader,
+    EntryBody,
+    HeroImage,
+  }
 }
 </script>
 
 <style lang="scss" scoped>
-.visual-main {
-	background: #a32a00 url(/assets/img/common/visual-main_bg@pc.png) center center no-repeat;
-	background-size: cover;
-	color: #fff;
-	text-align: center;
-
-	&__contents {
-		display: flex;
-		flex-direction: column;
-		align-content: center;
-		align-items: center;
-		justify-content: center;
-		height: 181px;
-    @include mq() {
-      height: calc(180 / #{$base_number_sp} * 100vw);
-    }
-	}
+.content {
+  margin: 10px 0;
 }
-
-h1 {
-  color: #fff;
-  font-size: 3rem;
-  font-weight: bold;
-  @media only screen and (max-width: $point_sp) {
-    font-size: calc(40 / #{$base_number_sp} * 100vw);
-  }
-}
-
-.body {
-  font-size: 1.6rem;
-}
-
 </style>

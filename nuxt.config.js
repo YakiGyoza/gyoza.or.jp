@@ -9,11 +9,13 @@ module.exports = {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'format-detection', content: 'telephone=no' },
       { hid: 'description', name: 'description', content: '焼き餃子を日本の文化として世界に発信する。日本の様々な餃子を、多くの人に知ってもらう。' },
-      { property: 'og:image', content: 'http://www.gyoza.or.jp/img/ogp.png' },
+      { hid: 'og:site_name', property: 'og:site_name', content: '一般社団法人焼き餃子協会' },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'og:url', property: 'og:url', content: 'https://www.gyoza.or.jp },
+      { hid: 'og:title', property: 'og:title', content: '一般社団法人焼き餃子協会' },
+      { hid: 'og:image', property: 'og:image', content: 'https://www.gyoza.or.jp/img/ogp.png' },
     ],
     script: [
-      { src: '//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js' },
-      { src: '//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js' },
 //      { src: '/assets/js/script.js' }
     ],
     link: [
@@ -59,6 +61,7 @@ module.exports = {
       '@/assets/scss/_variables.scss'
     ]],
     ['@nuxtjs/dotenv'],
+    '@nuxtjs/pwa',
   ],
   plugins: [
     '@/plugins/vue-smooth-scroll',
@@ -68,6 +71,10 @@ module.exports = {
     CTF_CDA_ACCESS_TOKEN: process.env.CTF_CDA_ACCESS_TOKEN
   },
   markdownit: {
+    preset: 'default',
+    linkify: true,
+    xhtmlOut: true,
+    breaks: true,
     injected: true,
   }
 }
