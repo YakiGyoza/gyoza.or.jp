@@ -35,7 +35,7 @@ export default {
       meta: [
         { hid: 'og:title', name: 'og:title', content: this.post.fields.title },
         { hid: 'description', name: 'description', content: this.post.fields.description },
-        { hid: 'og:image', name: 'og:image', content: this.post.fields.heroImage.fields.file.url },
+        { hid: 'og:image', property: 'og:image', content: this.post.fields.heroImage.fields.file.url },
       ],
     }
   },
