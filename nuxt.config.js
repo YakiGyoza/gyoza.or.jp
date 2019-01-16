@@ -54,7 +54,7 @@ module.exports = {
   },
   modules: [
     '@nuxtjs/markdownit',
-    ['@nuxtjs/google-analytics', {
+    ['@nuxtjs/google-gtag', {
       id: 'UA-131226277-1'
     }],
     ['nuxt-sass-resources-loader', [
