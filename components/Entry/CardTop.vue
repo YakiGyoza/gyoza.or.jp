@@ -4,7 +4,7 @@
       <div class="image"><img :src="image | imageSrc" alt="" /></div>
       <div class="contents">
         <dl>
-          <dt>{{ createdAt | date }}</dt>
+          <dt>{{ publishDate | date }}</dt>
           <dd>{{ title }}</dd>
         </dl>
       </div>
@@ -26,7 +26,7 @@ export default {
     title: {
       type: String,
     },
-    createdAt: {
+    publishDate: {
       type: String,
     },
   },

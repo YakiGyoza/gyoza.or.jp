@@ -9,7 +9,7 @@
           :id="post.sys.id"
           :image="post.fields.heroImage"
           :title="post.fields.title"
-          :createdAt="post.sys.createdAt">
+          :publishDate="post.fields.publishDate">
         </EntryCard>
       </div>
       <!--

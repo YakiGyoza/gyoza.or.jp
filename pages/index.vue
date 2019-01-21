@@ -41,14 +41,14 @@ export default {
       client.getEntries({
         'content_type': 'topics',
         locale: 'ja',
-        order: '-sys.createdAt',
+        order: '-fields.publishDate',
         'limit': 3
       }),
       // projects
       client.getEntries({
         'content_type': 'projects',
         locale: 'ja',
-        order: '-sys.createdAt',
+        order: '-fields.publishDate',
         'limit': 3
       })
     ]).then(([topics, projects]) => {

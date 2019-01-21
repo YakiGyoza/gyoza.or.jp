@@ -10,7 +10,7 @@
           :image="post.fields.heroImage"
           :title="post.fields.title"
           :description="post.fields.description"
-          :createdAt="post.sys.createdAt">
+          :publishDate="post.fields.publishDate">
         </EntryCard>
       </div>
       <!-- <div class="area-common__btn"><a href="#" class="btn -default">過去のプロジェクトをすべてみる</a></div> -->

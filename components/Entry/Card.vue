@@ -4,7 +4,7 @@
       <div class="image"><img :src="image | imageSrc" alt="" /></div>
       <div class="contents">
         <p class="label">{{ type }}</p>
-        <p class="date">{{ createdAt | date }}</p>
+        <p class="date">{{ publishDate | date }}</p>
         <h3 class="title">{{ title }}</h3>
       </div>
       <div class="description">
@@ -34,7 +34,7 @@ export default {
     type: {
       type: String,
     },
-    createdAt: {
+    publishDate: {
       type: String,
     },
   },

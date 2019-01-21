@@ -5,7 +5,7 @@
         <div class="contents">
           <h1>{{ title }}</h1>
           <div class="description"><p>{{ description }}</p></div>
-          <div class="date">{{ createdAt | date }}</div>
+          <div class="date">{{ publishDate | date }}</div>
         </div>
       </div>
     </div>
@@ -26,7 +26,7 @@ export default {
     type: {
       type: String,
     },
-    createdAt: {
+    publishDate: {
       type: String,
     },
   },

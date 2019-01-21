@@ -4,7 +4,7 @@
       :title="post.fields.title"
       :description="post.fields.description"
       :type="post.sys.contentType.sys.id"
-      :createdAt="post.sys.createdAt"></EntryHeader>
+      :publishDate="post.fields.publishDate"></EntryHeader>
     <div class="area-common">
       <div class="wrap">
         <HeroImage
