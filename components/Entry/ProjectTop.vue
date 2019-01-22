@@ -3,8 +3,8 @@
     <nuxt-link :to="{ name: 'posts-id', params: { id: id }}">
       <div class="image"><img :src="image | imageSrc" alt="" /></div>
       <div class="contents">
-        <p class="label">イベント</p>
-        <p class="date">{{ createdAt | date }}</p>
+        <p class="label" v-for="(typeLabel, key, index) in type" :key="index">{{ typeLabel }}</p>
+        <p class="date">{{ startDate | date }} <span v-if="endDate">〜 {{ endDate | date }}</span> 開催</p>
         <h3 class="headline">{{ title }}</h3>
         <div class="description">{{ description }}</div>
       </div>
@@ -29,15 +29,21 @@ export default {
     description: {
       type: String,
     },
-    createdAt: {
+    startDate: {
       type: String,
+    },
+    endDate: {
+      type: String,
+    },
+    type: {
+      type: Array,
     },
   },
   filters: {
     date: function (value) {
       if (!value) return '';
       const d = new Date(value);
-      return formatDate(d, 'YYYY/MM/DD');
+      return formatDate(d, 'YYYY/MM/DD HH:mm');
     },
     imageSrc: function(image) {
       if ( !image || !image.fields.file ) return '/assets/img/dummy/img_dummy.jpg';

@@ -5,7 +5,6 @@
         <div class="contents">
           <h1>{{ title }}</h1>
           <div class="description"><p>{{ description }}</p></div>
-          <div class="date">{{ publishDate | date }}</div>
         </div>
       </div>
     </div>
@@ -13,8 +12,6 @@
 </template>
 
 <script>
-import formatDate from 'date-fns/format'
-
 export default {
   props: {
     title: {
@@ -30,13 +27,6 @@ export default {
       type: String,
     },
   },
-  filters: {
-    date: function (value) {
-      if (!value) return '';
-      const d = new Date(value);
-      return formatDate(d, 'YYYY/MM/DD');
-    },
-  }
 }
 </script>
 

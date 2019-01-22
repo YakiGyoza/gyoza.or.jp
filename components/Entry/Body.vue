@@ -15,8 +15,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.body {
+  background: #fff;
+  padding: 1em;
+}
 .body /deep/ p {
   font-size: 1.6rem;
   padding: 1em 0;
+}
+.body /deep/ a {
+  color: #000;
 }
 </style>
