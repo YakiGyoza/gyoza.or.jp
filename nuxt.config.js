@@ -15,9 +15,6 @@ module.exports = {
       { hid: 'og:title', property: 'og:title', content: '一般社団法人焼き餃子協会' },
       { hid: 'og:image', property: 'og:image', content: 'https://www.gyoza.or.jp/img/ogp.png' },
     ],
-    script: [
-//      { src: '/assets/js/script.js' }
-    ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Noto+Sans+JP' }
@@ -54,9 +51,10 @@ module.exports = {
   },
   modules: [
     '@nuxtjs/markdownit',
-    ['@nuxtjs/google-gtag', {
-      id: 'UA-131226277-1'
-    }],
+    ['@nuxtjs/google-tag-manager', {
+      id: process.env.GTM_ID,
+      pageTracking: true,
+    }]
     ['nuxt-sass-resources-loader', [
       '@/assets/scss/_variables.scss'
     ]],
