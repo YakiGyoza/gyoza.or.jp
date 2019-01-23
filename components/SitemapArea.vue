@@ -32,7 +32,7 @@
   <p class="column-sitemap__headline"><nuxt-link to="#contact" v-smooth-scroll>お問い合わせ</nuxt-link></p>
   <ul class="column-sitemap__list">
   <li><a href="https://share.hsforms.com/1cLvRzx1iTbCOdvDQF-N5fQ31zvo" target="_blank">個人お問い合わせ</a></li>
-  <li><a href="https://share.hsforms.com/1ohpGfLTRSnOaUqGMxMUwcQ31zvo" target="_blank">法人お問いあわせ</a></li>
+  <li><a href="https://share.hsforms.com/1ohpGfLTRSnOaUqGMxMUwcQ31zvo" target="_blank">法人お問い合わせ</a></li>
   <li><a href="https://share.hsforms.com/1ohpGfLTRSnOaUqGMxMUwcQ31zvo" target="_blank">取材のお問い合わせ</a></li>
   </ul><!-- /.column-sitemap__list -->
   </div><!-- /.column-sitemap__item -->

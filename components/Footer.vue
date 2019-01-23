@@ -17,7 +17,6 @@
           </li>
           <li>
             <a class="twitter-timeline" data-lang="en" data-width="220" data-height="340" href="https://twitter.com/YakiGyozaJapan?ref_src=twsrc%5Etfw">Tweets by YakiGyozaJapan</a>
-            <script src="https://platform.twitter.com/widgets.js" charset="utf-8" async></script>
           </li>
         </ul><!-- /.unit-footer__sns -->
       </div><!-- /.unit-footer -->
@@ -31,7 +30,8 @@ export default {
   head() {
     return {
       script: [
-        { src: '/assets/js/fb-sdk.js', async: true }
+        { src: '/assets/js/fb-sdk.js', async: true },
+        { src: 'https://platform.twitter.com/widgets.js', charset: 'utf-8', async: true }
       ]
     }
   }
