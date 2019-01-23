@@ -54,7 +54,7 @@ module.exports = {
     ['@nuxtjs/google-tag-manager', {
       id: process.env.GTM_ID,
       pageTracking: true,
-    }]
+    }],
     ['nuxt-sass-resources-loader', [
       '@/assets/scss/_variables.scss'
     ]],
