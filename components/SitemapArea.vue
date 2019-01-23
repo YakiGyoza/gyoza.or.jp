@@ -21,7 +21,7 @@
   </ul><!-- /.column-sitemap__list -->
   </div><!-- /.column-sitemap__item -->
   <div class="column-sitemap__item">
-  <p class="column-sitemap__headline"><nuxt-link to="/" v-scroll-to="'#entry'">入会案内</nuxt-link></p>
+  <p class="column-sitemap__headline"><nuxt-link to="/#entry" v-smooth-scroll>入会案内</nuxt-link></p>
   <ul class="column-sitemap__list">
   <li><nuxt-link to="/#entry" v-smooth-scroll>会員特典</nuxt-link></li>
   <li><nuxt-link to="/#entryConditions" v-smooth-scroll>入会資格</nuxt-link></li>

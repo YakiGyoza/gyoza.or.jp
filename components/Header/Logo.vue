@@ -2,7 +2,7 @@
   <h1 class="logo">
     <img src="/assets/img/common/logo.png" alt="" width="106" height="100">
     <p>一般社団法人<b>焼き餃子協会</b><span>Yaki Gyoza Association</span></p>
-    <nuxt-link v-scroll-to="'#top'" to="/"></nuxt-link>
+    <nuxt-link to="/" v-smooth-scroll></nuxt-link>
   </h1>
 </template>
 
