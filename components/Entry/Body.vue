@@ -24,6 +24,12 @@ export default {
   padding: 1em 0;
 }
 .body /deep/ a {
-  color: #000;
+  color: #600;
+}
+.body /deep/ ul {
+  margin-left: 2em;
+}
+.body /deep/ li {
+  list-style: disc;
 }
 </style>

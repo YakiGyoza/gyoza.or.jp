@@ -85,7 +85,8 @@ export default {
 
 <style lang="scss" scoped>
 .wrap {
-  margin: 1em 0;
+  margin: 1em auto;
+
 }
 .link {
   background: #fff;
