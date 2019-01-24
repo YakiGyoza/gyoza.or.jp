@@ -44,7 +44,7 @@ export default {
   align-content: center;
   align-items: center;
   justify-content: center;
-  height: 181px;
+  min-height: 181px;
   @include mq() {
     height: calc(180 / #{$base_number_sp} * 100vw);
   }
