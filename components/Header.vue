@@ -177,7 +177,7 @@ export default {
         top: 0;
         bottom: 0;
         left: -15%;
-//        z-index: -1;
+        z-index: -1;
         width: 0;
         background-color: $color_accent;
         transform: skew(-30deg);
