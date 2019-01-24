@@ -46,7 +46,7 @@ export default {
   justify-content: center;
   min-height: 181px;
   @include mq() {
-    height: calc(180 / #{$base_number_sp} * 100vw);
+    min-height: calc(180 / #{$base_number_sp} * 100vw);
   }
 }
 
