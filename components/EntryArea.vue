@@ -8,21 +8,21 @@
 
   <div class="member-entry">
   <div class="member-entry__item -item01">
-  <h3 class="member-entry__member">正会員・準会員</h3>
+  <h3 class="member-entry__member">賛助会員</h3>
   <div class="member-entry__contents">
-  <p>焼き餃子を提供している<br class="display-pc">店舗の店主・オーナー、<br class="display-pc">餃子関連企業であること。</p>
+  <p>当協会の趣旨に賛同し、焼き餃子文化を広めるための活動を資金面で支援してくださる方。</p>
   </div><!-- /.member-entry__contents -->
   </div><!-- /.member-entry__item -->
   <div class="member-entry__item -item02">
-  <h3 class="member-entry__member">賛助会員・特別会員</h3>
+  <h3 class="member-entry__member">特別会員</h3>
   <div class="member-entry__contents">
-  <p>焼き餃子に関わる業種に<br class="display-pc">従事する者であること。</p>
+  <p>焼き餃子に関し、品質向上または市場拡大に貢献していると、当協会が認め指名した方。</p>
   </div><!-- /.member-entry__contents -->
   </div><!-- /.member-entry__item -->
   <div class="member-entry__item -item03">
-  <h3 class="member-entry__member">個人会員</h3>
+  <h3 class="member-entry__member">一般会員</h3>
   <div class="member-entry__contents">
-  <p>当協会の趣旨に<br class="display-pc">賛同する者であること。</p>
+  <p>焼き餃子に関わる活動や知識が、当協会会員としてふさわしいと認められる方。</p>
   </div><!-- /.member-entry__contents -->
   </div><!-- /.member-entry__item -->
   </div><!-- /.member-entry -->
@@ -31,96 +31,109 @@
 
   <div class="table-entry display-pc">
   <table>
-  <thead>
-  <tr>
-  <th>&nbsp;</th>
-  <th class="-member01">正会員</th>
-  <th class="-member01">準会員</th>
-  <th class="-member02">賛助会員</th>
-  <th class="-member02">特別会員</th>
-  <th class="-member03">個人会員</th>
-  </tr>
-  <tr>
-  <th>会員対象<span>会員別に資格があります</span></th>
-  <th>焼き餃子店店主・オーナー、焼き餃子関連メーカー</th>
-  <th>焼き餃子店店主・オーナー</th>
-  <th>企業</th>
-  <th>焼き餃子関連業務従事者、その他</th>
-  <th>個人一般</th>
-  </tr>
-  </thead>
+    <thead>
+    <tr>
+      <th>&nbsp;</th>
+      <th class="-member01">法人賛助会員</th>
+      <th class="-member01">個人賛助会員</th>
+      <th class="-member02">特別会員</th>
+      <th class="-member03">法人一般会員</th>
+      <th class="-member03">個人一般会員</th>
+    </tr>
+    <tr>
+      <th>会員対象<span>会員別に資格があります</span></th>
+      <th>企業</th>
+      <th>個人</th>
+      <th>個人<br>（当協会が指名）</th>
+      <th>企業</th>
+      <th>個人</th>
+    </tr>
+    </thead>
   <tbody>
-  <tr>
-  <th>会員証書<span>会員登録後に郵送</span></th>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  <td>&nbsp;</td>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  <td>&nbsp;</td>
-  </tr>
-  <tr>
-  <th>協会会員ステッカー<span>協会認定のステッカー</span></th>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  <td>&nbsp;</td>
-  </tr>
-  <tr>
-  <th>会報と総会への参加権利<span>会報のお届けと総会の開催をお知らせ</span></th>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  <td>&nbsp;</td>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  <td>&nbsp;</td>
-  <td>&nbsp;</td>
-  </tr>
-  <tr>
-  <th>協会主催イベントご招待<span>優先的に協会主催イベントへご招待</span></th>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  <td>&nbsp;</td>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  <td>&nbsp;</td>
-  </tr>
-  <tr>
-  <th>当サイトでの情報発信<span>新商品・プレスリリースを会員へ発信</span></th>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  <td>&nbsp;</td>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  <td>&nbsp;</td>
-  </tr>
-  <tr>
-  <th>最新情報のメルマガ<span>業界関連最新情報をお届け</span></th>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  </tr>
-  <tr>
-  <th>名刺作成<span>有料にてロゴ入り名刺をお届け</span></th>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  </tr>
+    <tr>
+      <th>最新情報のメルマガ<span>協会から業界関連最新情報をお届け</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+    <tr>
+      <th>焼き餃子コミュニティ参加<span>焼き餃子に関する会員間の情報共有</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+    <tr>
+      <th>協会会員への情報発信<span>新商品・プレスリリースを会員へ発信</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th>協会開催イベントご優待<span>イベントに特別枠でご招待</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th>協会主催イベントご案内<span>協会主催イベントへ先行ご案内</span></th>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+    <tr>
+      <th>会員証書<span>会員登録後に郵送</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th>名刺作成<span>有料にてロゴ入り名刺をお届け</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+<!--
+    <tr>
+      <th>協会会員ステッカー<span>協会認定のステッカー</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th>会報と総会への参加権利<span>会報のお届けと総会の開催をお知らせ</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td>&nbsp;</td>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  -->
   </tbody>
   <tfoot>
-  <tr>
-  <th>入会金</th>
-  <td colspan="4"><b>現在入会金無料</b></td>
-  <td><b>無料</b></td>
-  </tr>
-  <tr>
-  <th>年会費</th>
-  <td><span>1口</span>12,000円〜</td>
-  <td><b>無料</b></td>
-  <td><span>1口</span>12,000円〜</td>
-  <td><b>無料</b></td>
-  <td><b>無料</b></td>
-  </tr>
+    <tr>
+    <th>年会費</th>
+      <td><span>1口</span>100,000円</td>
+      <td><span>1口</span>12,000円</td>
+      <td><b>無料</b></td>
+      <td><b>無料</b></td>
+      <td><b>無料</b></td>
+    </tr>
   </tfoot>
   </table>
   </div><!-- /.table-entry -->
@@ -129,156 +142,106 @@
 
   <table>
   <thead>
-  <tr>
-  <th colspan="2" class="-member01">正会員</th>
-  </tr>
-  <tr>
-  <th>会員対象<span>会員別に資格があります</span></th>
-  <th>焼き餃子店店主・オーナー、焼き餃子関連メーカー</th>
-  </tr>
+    <tr>
+      <th colspan="2" class="-member01">法人賛助会員</th>
+      </tr>
+      <tr>
+      <th>会員対象<span>会員別に資格があります</span></th>
+      <th>法人</th>
+    </tr>
   </thead>
   <tbody>
-  <tr>
-  <th>会員証書<span>会員登録後に郵送</span></th>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  </tr>
-  <tr>
-  <th>協会会員ステッカー<span>協会認定のステッカー</span></th>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  </tr>
+    <tr>
+      <th>最新情報のメルマガ<span>協会から業界関連最新情報をお届け</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+    <tr>
+      <th>焼き餃子コミュニティ参加<span>焼き餃子に関する会員間の情報共有</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+    <tr>
+      <th>協会会員への情報発信<span>新商品・プレスリリースを会員へ発信</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+    <tr>
+      <th>協会開催イベントご優待<span>イベントに特別枠でご招待</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+    <tr>
+      <th>協会主催イベントご案内<span>協会主催イベントへ先行ご案内</span></th>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th>会員証書<span>会員登録後に郵送</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+    <tr>
+      <th>名刺作成<span>有料にてロゴ入り名刺をお届け</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+<!--
+    <tr>
+    <th>協会会員ステッカー<span>協会認定のステッカー</span></th>
+    <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
   <tr>
   <th>会報と総会への参加権利<span>会報のお届けと総会の開催をお知らせ</span></th>
   <td><img src="/assets/img/common/ic_check.png" alt=""></td>
   </tr>
-  <tr>
-  <th>協会主催イベントご招待<span>優先的に協会主催イベントへご招待</span></th>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  </tr>
-  <tr>
-  <th>当サイトでの情報発信<span>新商品・プレスリリースを会員へ発信</span></th>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  </tr>
-  <tr>
-  <th>最新情報のメルマガ<span>業界関連最新情報をお届け</span></th>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  </tr>
-  <tr>
-  <th>名刺作成<span>有料にてロゴ入り名刺をお届け</span></th>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  </tr>
+-->
   </tbody>
   <tfoot>
-  <tr>
-  <th>入会金</th>
-  <td><b>現在入会金<br>無料</b></td>
-  </tr>
-  <tr>
-  <th>年会費</th>
-  <td><span>1口</span>12,000円〜</td>
-  </tr>
+    <tr>
+      <th>年会費</th>
+      <td><span>1口</span>100,000円</td>
+    </tr>
   </tfoot>
   </table>
 
   <table>
   <thead>
   <tr>
-  <th colspan="2" class="-member01">準会員</th>
+  <th colspan="2" class="-member01">個人賛助会員</th>
   </tr>
   <tr>
   <th>会員対象<span>会員別に資格があります</span></th>
-  <th>焼き餃子店店主・オーナー</th>
+  <th>個人</th>
   </tr>
   </thead>
   <tbody>
-  <tr>
-  <th>会員証書<span>会員登録後に郵送</span></th>
-  <td>&nbsp;</td>
-  </tr>
-  <tr>
-  <th>協会会員ステッカー<span>協会認定のステッカー</span></th>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  </tr>
-  <tr>
-  <th>会報と総会への参加権利<span>会報のお届けと総会の開催をお知らせ</span></th>
-  <td>&nbsp;</td>
-  </tr>
-  <tr>
-  <th>協会主催イベントご招待<span>優先的に協会主催イベントへご招待</span></th>
-  <td>&nbsp;</td>
-  </tr>
-  <tr>
-  <th>当サイトでの情報発信<span>新商品・プレスリリースを会員へ発信</span></th>
-  <td>&nbsp;</td>
-  </tr>
-  <tr>
-  <th>最新情報のメルマガ<span>業界関連最新情報をお届け</span></th>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  </tr>
-  <tr>
-  <th>名刺作成<span>有料にてロゴ入り名刺をお届け</span></th>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  </tr>
+    <tr>
+      <th>最新情報のメルマガ<span>協会から業界関連最新情報をお届け</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+    <tr>
+      <th>焼き餃子コミュニティ参加<span>焼き餃子に関する会員間の情報共有</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+    <tr>
+      <th>協会会員への情報発信<span>新商品・プレスリリースを会員へ発信</span></th>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th>協会開催イベントご優待<span>イベントに特別枠でご招待</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+    <tr>
+      <th>協会主催イベントご案内<span>協会主催イベントへ先行ご案内</span></th>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th>会員証書<span>会員登録後に郵送</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+    <tr>
+      <th>名刺作成<span>有料にてロゴ入り名刺をお届け</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
   </tbody>
   <tfoot>
   <tr>
-  <th>入会金</th>
-  <td><b>現在入会金<br>無料</b></td>
-  </tr>
-  <tr>
   <th>年会費</th>
-  <td><b>無料</b></td>
-  </tr>
-  </tfoot>
-  </table>
-
-  <table>
-  <thead>
-  <tr>
-  <th colspan="2" class="-member02">賛助会員</th>
-  </tr>
-  <tr>
-  <th>会員対象<span>会員別に資格があります</span></th>
-  <th>企業</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr>
-  <th>会員証書<span>会員登録後に郵送</span></th>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  </tr>
-  <tr>
-  <th>協会会員ステッカー<span>協会認定のステッカー</span></th>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  </tr>
-  <tr>
-  <th>会報と総会への参加権利<span>会報のお届けと総会の開催をお知らせ</span></th>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  </tr>
-  <tr>
-  <th>協会主催イベントご招待<span>優先的に協会主催イベントへご招待</span></th>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  </tr>
-  <tr>
-  <th>当サイトでの情報発信<span>新商品・プレスリリースを会員へ発信</span></th>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  </tr>
-  <tr>
-  <th>最新情報のメルマガ<span>業界関連最新情報をお届け</span></th>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  </tr>
-  <tr>
-  <th>名刺作成<span>有料にてロゴ入り名刺をお届け</span></th>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  </tr>
-  </tbody>
-  <tfoot>
-  <tr>
-  <th>入会金</th>
-  <td><b>現在入会金<br>無料</b></td>
-  </tr>
-  <tr>
-  <th>年会費</th>
-  <td><span>1口</span>12,000円〜</td>
+  <td><span>1口</span>12,000円</td>
   </tr>
   </tfoot>
   </table>
@@ -290,44 +253,40 @@
   </tr>
   <tr>
   <th>会員対象<span>会員別に資格があります</span></th>
-  <th>焼き餃子関連業務従事者、その他</th>
+  <th>個人（当協会が指名）</th>
   </tr>
   </thead>
   <tbody>
-  <tr>
-  <th>会員証書<span>会員登録後に郵送</span></th>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  </tr>
-  <tr>
-  <th>協会会員ステッカー<span>協会認定のステッカー</span></th>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  </tr>
-  <tr>
-  <th>会報と総会への参加権利<span>会報のお届けと総会の開催をお知らせ</span></th>
-  <td>&nbsp;</td>
-  </tr>
-  <tr>
-  <th>協会主催イベントご招待<span>優先的に協会主催イベントへご招待</span></th>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  </tr>
-  <tr>
-  <th>当サイトでの情報発信<span>新商品・プレスリリースを会員へ発信</span></th>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  </tr>
-  <tr>
-  <th>最新情報のメルマガ<span>業界関連最新情報をお届け</span></th>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  </tr>
-  <tr>
-  <th>名刺作成<span>有料にてロゴ入り名刺をお届け</span></th>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  </tr>
+    <tr>
+      <th>最新情報のメルマガ<span>協会から業界関連最新情報をお届け</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+    <tr>
+      <th>焼き餃子コミュニティ参加<span>焼き餃子に関する会員間の情報共有</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+    <tr>
+      <th>協会会員への情報発信<span>新商品・プレスリリースを会員へ発信</span></th>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th>協会開催イベントご優待<span>イベントに特別枠でご招待</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+    <tr>
+      <th>協会主催イベントご案内<span>協会主催イベントへ先行ご案内</span></th>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th>会員証書<span>会員登録後に郵送</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+    <tr>
+      <th>名刺作成<span>有料にてロゴ入り名刺をお届け</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
   </tbody>
   <tfoot>
-  <tr>
-  <th>入会金</th>
-  <td><b>現在入会金<br>無料</b></td>
-  </tr>
   <tr>
   <th>年会費</th>
   <td><b>無料</b></td>
@@ -338,48 +297,92 @@
   <table>
   <thead>
   <tr>
-  <th colspan="2" class="-member03">個人会員</th>
+  <th colspan="2" class="-member03">法人一般会員</th>
   </tr>
   <tr>
   <th>会員対象<span>会員別に資格があります</span></th>
-  <th>個人一般</th>
+  <th>法人</th>
   </tr>
   </thead>
   <tbody>
-  <tr>
-  <th>会員証書<span>会員登録後に郵送</span></th>
-  <td>&nbsp;</td>
-  </tr>
-  <tr>
-  <th>協会会員ステッカー<span>協会認定のステッカー</span></th>
-  <td>&nbsp;</td>
-  </tr>
-  <tr>
-  <th>会報と総会への参加権利<span>会報のお届けと総会の開催をお知らせ</span></th>
-  <td>&nbsp;</td>
-  </tr>
-  <tr>
-  <th>協会主催イベントご招待<span>優先的に協会主催イベントへご招待</span></th>
-  <td>&nbsp;</td>
-  </tr>
-  <tr>
-  <th>当サイトでの情報発信<span>新商品・プレスリリースを会員へ発信</span></th>
-  <td>&nbsp;</td>
-  </tr>
-  <tr>
-  <th>最新情報のメルマガ<span>業界関連最新情報をお届け</span></th>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  </tr>
-  <tr>
-  <th>名刺作成<span>有料にてロゴ入り名刺をお届け</span></th>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  </tr>
+    <tr>
+      <th>最新情報のメルマガ<span>協会から業界関連最新情報をお届け</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+    <tr>
+      <th>焼き餃子コミュニティ参加<span>焼き餃子に関する会員間の情報共有</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+    <tr>
+      <th>協会会員への情報発信<span>新商品・プレスリリースを会員へ発信</span></th>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th>協会開催イベントご優待<span>イベントに特別枠でご招待</span></th>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th>協会主催イベントご案内<span>協会主催イベントへ先行ご案内</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+    <tr>
+      <th>会員証書<span>会員登録後に郵送</span></th>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th>名刺作成<span>有料にてロゴ入り名刺をお届け</span></th>
+      <td>&nbsp;</td>
+    </tr>
   </tbody>
   <tfoot>
   <tr>
-  <th>入会金</th>
+  <th>年会費</th>
   <td><b>無料</b></td>
   </tr>
+  </tfoot>
+  </table>
+
+  <table>
+  <thead>
+  <tr>
+  <th colspan="2" class="-member03">個人一般会員</th>
+  </tr>
+  <tr>
+  <th>会員対象<span>会員別に資格があります</span></th>
+  <th>個人</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>最新情報のメルマガ<span>協会から業界関連最新情報をお届け</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+    <tr>
+      <th>焼き餃子コミュニティ参加<span>焼き餃子に関する会員間の情報共有</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+    <tr>
+      <th>協会会員への情報発信<span>新商品・プレスリリースを会員へ発信</span></th>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th>協会開催イベントご優待<span>イベントに特別枠でご招待</span></th>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th>協会主催イベントご案内<span>協会主催イベントへ先行ご案内</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+    <tr>
+      <th>会員証書<span>会員登録後に郵送</span></th>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th>名刺作成<span>有料にてロゴ入り名刺をお届け</span></th>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+  <tfoot>
   <tr>
   <th>年会費</th>
   <td><b>無料</b></td>
@@ -389,8 +392,12 @@
 
   </div><!-- /.table-entry -->
 
-  <p class="note">入会方法等の詳細は、2019年1月下旬にご案内いたします。</p>
-  <div class="area-common__btn"><nuxt-link to="/#contact" class="btn -default" v-smooth-scroll>お問い合わせはこちら</nuxt-link></div>
+  <p class="note">入会には審査がございます。以下フォームよりご登録頂き、１週間以内に審査結果をお知らせいたします。</p>
+  <div class="area-common__btn">
+    <a href="https://share.hsforms.com/1YiCxJyQBQcC1leQb3AJIdA31zvo" class="btn -default" target="_blank">
+      焼き餃子協会　入会申し込みフォーム
+    </a>
+  </div>
 
   </div><!-- /.wrap -->
   </section><!-- /.area-common -->
