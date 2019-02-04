@@ -8,21 +8,21 @@
 
   <div class="member-entry">
   <div class="member-entry__item -item01">
-  <h3 class="member-entry__member">賛助会員</h3>
+  <h3 class="member-entry__member">正会員</h3>
   <div class="member-entry__contents">
-  <p>当協会の趣旨に賛同し、焼き餃子文化を広めるための活動を資金面で支援してくださる方。</p>
+  <p>当協会の審査基準を満たし、焼き餃子の品質向上や市場拡大のための協力や活動が認められる方。</p>
   </div><!-- /.member-entry__contents -->
   </div><!-- /.member-entry__item -->
   <div class="member-entry__item -item02">
-  <h3 class="member-entry__member">特別会員</h3>
+  <h3 class="member-entry__member">賛助会員</h3>
   <div class="member-entry__contents">
-  <p>焼き餃子に関し、品質向上または市場拡大に貢献していると、当協会が認め指名した方。</p>
+  <p>焼き餃子への関心が高く、焼き餃子の品質向上や市場拡大のため当協会の活動に賛助頂ける方。</p>
   </div><!-- /.member-entry__contents -->
   </div><!-- /.member-entry__item -->
   <div class="member-entry__item -item03">
-  <h3 class="member-entry__member">一般会員</h3>
+  <h3 class="member-entry__member">準会員</h3>
   <div class="member-entry__contents">
-  <p>焼き餃子に関わる活動や知識が、当協会会員としてふさわしいと認められる方。</p>
+  <p>焼き餃子協会の活動に関心があり、入会を検討している方。</p>
   </div><!-- /.member-entry__contents -->
   </div><!-- /.member-entry__item -->
   </div><!-- /.member-entry -->
@@ -34,105 +34,100 @@
     <thead>
     <tr>
       <th>&nbsp;</th>
-      <th class="-member01">法人賛助会員</th>
-      <th class="-member01">個人賛助会員</th>
-      <th class="-member02">特別会員</th>
-      <th class="-member03">法人一般会員</th>
-      <th class="-member03">個人一般会員</th>
+      <th class="-member01">個人正会員</th>
+      <th class="-member02">法人賛助会員</th>
+      <th class="-member02">個人賛助会員</th>
+      <th class="-member03">準会員</th>
     </tr>
     <tr>
       <th>会員対象<span>会員別に資格があります</span></th>
-      <th>企業</th>
-      <th>個人</th>
-      <th>個人<br>（当協会が指名）</th>
-      <th>企業</th>
+      <th>当協会の審査基準を満たした個人会員</th>
+      <th>当協会に賛助頂いた<br />法人・店舗</th>
+      <th>月会費をお支払い頂いた個人</th>
       <th>個人</th>
     </tr>
     </thead>
   <tbody>
     <tr>
-      <th>最新情報のメルマガ<span>協会から業界関連最新情報をお届け</span></th>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-    </tr>
-    <tr>
-      <th>焼き餃子コミュニティ参加<span>焼き餃子に関する会員間の情報共有</span></th>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <th>焼き餃子協会のお知らせ<span>当協会の活動をお知らせいたします。</span></th>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
     </tr>
     <tr>
-      <th>協会会員への情報発信<span>新商品・プレスリリースを会員へ発信</span></th>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <th>協会開催イベントご優待<span>イベントに特別枠でご招待</span></th>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <th>協会主催イベントご案内<span>協会主催イベントへ先行ご案内</span></th>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-    </tr>
-    <tr>
-      <th>会員証書<span>会員登録後に郵送</span></th>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <th>名刺作成<span>有料にてロゴ入り名刺をお届け</span></th>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-    </tr>
-<!--
-    <tr>
-      <th>協会会員ステッカー<span>協会認定のステッカー</span></th>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <th>焼き餃子協会 会報<span>当協会から、餃子に関する最新情報やお得な情報をお届けいたします。</span></th>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
       <td>&nbsp;</td>
     </tr>
     <tr>
-      <th>会報と総会への参加権利<span>会報のお届けと総会の開催をお知らせ</span></th>
+      <th>会員優待プログラム<span>会員限定ご優待をご案内いたします。</span></th>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th>個人会員限定イベント<span>餃子試食会、餃子工場見学、技術講習イベントなどをご案内いたします。</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td>&nbsp;</td>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th>お取り寄せ餃子データベース<span>焼き餃子協会が調査したデータベースの閲覧権限を提供します。</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th>会員向け情報配信<span>新商品やキャンペーンなどの情報を会員に配信できます。</span></th>
       <td>&nbsp;</td>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
       <td>&nbsp;</td>
       <td>&nbsp;</td>
     </tr>
-  -->
+    <tr>
+      <th>コラボイベント開催<span>当協会と共同のイベントを企画・開催</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
   </tbody>
   <tfoot>
     <tr>
-    <th>年会費</th>
-      <td><span>1口</span>100,000円</td>
-      <td><span>1口</span>12,000円</td>
+    <th>会費（税込）</th>
+      <td><span>月会費</span>324円</td>
+      <td><span>年会費一口</span>10,000円</td>
+      <td><span>月会費</span>324円</td>
       <td><b>無料</b></td>
-      <td><b>無料</b></td>
-      <td><b>無料</b></td>
+    </tr>
+    <tr>
+    <th>会員登録</th>
+      <td>
+          <a href="https://share.hsforms.com/1YiCxJyQBQcC1leQb3AJIdA31zvo" class="btn -default" target="_blank">
+            審査登録
+          </a>
+      </td>
+      <td>
+          <a href="https://share.hsforms.com/1ohpGfLTRSnOaUqGMxMUwcQ31zvo" class="btn -default" target="_blank">
+            お問い合わせ
+          </a>
+      </td>
+      <td>
+          <a href="https://yaki-gyoza.stores.jp/items/5c528c8faee1bb700384f98a" class="btn -default" target="_blank">
+            入会登録
+          </a>
+      </td>
+      <td>
+          <a href="https://yaki-gyoza.stores.jp/iframe/store/follow_button" class="btn -default" target="_blank">
+            フォロー
+          </a>
+      </td>
     </tr>
   </tfoot>
   </table>
@@ -143,57 +138,54 @@
   <table>
   <thead>
     <tr>
-      <th colspan="2" class="-member01">法人賛助会員</th>
+      <th colspan="2" class="-member01">個人正会員</th>
       </tr>
       <tr>
       <th>会員対象<span>会員別に資格があります</span></th>
-      <th>法人</th>
+      <th>当協会の審査基準を満たした個人会員</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>最新情報のメルマガ<span>協会から業界関連最新情報をお届け</span></th>
+      <th>焼き餃子協会のお知らせ<span>当協会の活動をお知らせいたします。</span></th>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
     </tr>
     <tr>
-      <th>焼き餃子コミュニティ参加<span>焼き餃子に関する会員間の情報共有</span></th>
+      <th>焼き餃子協会 会報<span>当協会から、餃子に関する最新情報やお得な情報をお届けいたします。</span></th>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
     </tr>
     <tr>
-      <th>協会会員への情報発信<span>新商品・プレスリリースを会員へ発信</span></th>
+      <th>会員優待プログラム<span>会員限定ご優待をご案内いたします。</span></th>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
     </tr>
     <tr>
-      <th>協会開催イベントご優待<span>イベントに特別枠でご招待</span></th>
+      <th>個人会員限定イベント<span>餃子試食会、餃子工場見学、技術講習イベントなどをご案内いたします。</span></th>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
     </tr>
     <tr>
-      <th>協会主催イベントご案内<span>協会主催イベントへ先行ご案内</span></th>
+      <th>お取り寄せ餃子データベース<span>焼き餃子協会が調査したデータベースの閲覧権限を提供します。</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+    <tr>
+      <th>会員向け情報配信<span>新商品やキャンペーンなどの情報を会員に配信できます。</span></th>
       <td>&nbsp;</td>
     </tr>
     <tr>
-      <th>会員証書<span>会員登録後に郵送</span></th>
+      <th>コラボイベント開催<span>当協会と共同のイベントを企画・開催</span></th>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
     </tr>
-    <tr>
-      <th>名刺作成<span>有料にてロゴ入り名刺をお届け</span></th>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-    </tr>
-<!--
-    <tr>
-    <th>協会会員ステッカー<span>協会認定のステッカー</span></th>
-    <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-    </tr>
-  <tr>
-  <th>会報と総会への参加権利<span>会報のお届けと総会の開催をお知らせ</span></th>
-  <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-  </tr>
--->
   </tbody>
   <tfoot>
     <tr>
-      <th>年会費</th>
-      <td><span>1口</span>100,000円</td>
+      <th>会費（税込）</th>
+      <td><span>月会費</span>324円</td>
+    </tr>
+    <tr>
+      <td colspan="2">
+          <a href="https://share.hsforms.com/1YiCxJyQBQcC1leQb3AJIdA31zvo" class="btn -default" target="_blank">
+            審査登録
+          </a>
+      </td>
     </tr>
   </tfoot>
   </table>
@@ -201,7 +193,117 @@
   <table>
   <thead>
   <tr>
-  <th colspan="2" class="-member01">個人賛助会員</th>
+  <th colspan="2" class="-member02">法人賛助会員</th>
+  </tr>
+  <tr>
+  <th>会員対象<span>会員別に資格があります</span></th>
+  <th>当協会に賛助頂いた法人・店舗</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>焼き餃子協会のお知らせ<span>当協会の活動をお知らせいたします。</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+    <tr>
+      <th>焼き餃子協会 会報<span>当協会から、餃子に関する最新情報やお得な情報をお届けいたします。</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+    <tr>
+      <th>会員優待プログラム<span>会員限定ご優待をご案内いたします。</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+    <tr>
+      <th>個人会員限定イベント<span>餃子試食会、餃子工場見学、技術講習イベントなどをご案内いたします。</span></th>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th>お取り寄せ餃子データベース<span>焼き餃子協会が調査したデータベースの閲覧権限を提供します。</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+    <tr>
+      <th>会員向け情報配信<span>新商品やキャンペーンなどの情報を会員に配信できます。</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+    <tr>
+      <th>コラボイベント開催<span>当協会と共同のイベントを企画・開催</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th>会費（税込）</th>
+      <td><span>年会費一口</span>10,000円</td>
+    </tr>
+    <tr>
+      <td colspan="2">
+          <a href="https://share.hsforms.com/1ohpGfLTRSnOaUqGMxMUwcQ31zvo" class="btn -default" target="_blank">
+            お問い合わせ
+          </a>
+      </td>
+    </tr>
+  </tfoot>
+  </table>
+
+  <table>
+  <thead>
+  <tr>
+  <th colspan="2" class="-member02">個人賛助会員</th>
+  </tr>
+  <tr>
+  <th>会員対象<span>会員別に資格があります</span></th>
+  <th>月会費をお支払い頂いた個人</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>焼き餃子協会のお知らせ<span>当協会の活動をお知らせいたします。</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+    <tr>
+      <th>焼き餃子協会 会報<span>当協会から、餃子に関する最新情報やお得な情報をお届けいたします。</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+    <tr>
+      <th>会員優待プログラム<span>会員限定ご優待をご案内いたします。</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+    <tr>
+      <th>個人会員限定イベント<span>餃子試食会、餃子工場見学、技術講習イベントなどをご案内いたします。</span></th>
+      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+    </tr>
+    <tr>
+      <th>お取り寄せ餃子データベース<span>焼き餃子協会が調査したデータベースの閲覧権限を提供します。</span></th>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th>会員向け情報配信<span>新商品やキャンペーンなどの情報を会員に配信できます。</span></th>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th>コラボイベント開催<span>当協会と共同のイベントを企画・開催</span></th>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th>会費（税込）</th>
+      <td><span>月会費</span>324円</td>
+    </tr>
+    <tr>
+      <td colspan="2">
+          <a href="https://yaki-gyoza.stores.jp/items/5c528c8faee1bb700384f98a" class="btn -default" target="_blank">
+            入会登録
+          </a>
+      </td>
+    </tr>
+  </tfoot>
+  </table>
+
+  <table>
+  <thead>
+  <tr>
+  <th colspan="2" class="-member03">準会員</th>
   </tr>
   <tr>
   <th>会員対象<span>会員別に資格があります</span></th>
@@ -210,193 +312,54 @@
   </thead>
   <tbody>
     <tr>
-      <th>最新情報のメルマガ<span>協会から業界関連最新情報をお届け</span></th>
+      <th>焼き餃子協会のお知らせ<span>当協会の活動をお知らせいたします。</span></th>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
     </tr>
     <tr>
-      <th>焼き餃子コミュニティ参加<span>焼き餃子に関する会員間の情報共有</span></th>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-    </tr>
-    <tr>
-      <th>協会会員への情報発信<span>新商品・プレスリリースを会員へ発信</span></th>
+      <th>焼き餃子協会 会報<span>当協会から、餃子に関する最新情報やお得な情報をお届けいたします。</span></th>
       <td>&nbsp;</td>
     </tr>
     <tr>
-      <th>協会開催イベントご優待<span>イベントに特別枠でご招待</span></th>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-    </tr>
-    <tr>
-      <th>協会主催イベントご案内<span>協会主催イベントへ先行ご案内</span></th>
+      <th>会員優待プログラム<span>会員限定ご優待をご案内いたします。</span></th>
       <td>&nbsp;</td>
     </tr>
     <tr>
-      <th>会員証書<span>会員登録後に郵送</span></th>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-    </tr>
-    <tr>
-      <th>名刺作成<span>有料にてロゴ入り名刺をお届け</span></th>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-    </tr>
-  </tbody>
-  <tfoot>
-  <tr>
-  <th>年会費</th>
-  <td><span>1口</span>12,000円</td>
-  </tr>
-  </tfoot>
-  </table>
-
-  <table>
-  <thead>
-  <tr>
-  <th colspan="2" class="-member02">特別会員</th>
-  </tr>
-  <tr>
-  <th>会員対象<span>会員別に資格があります</span></th>
-  <th>個人（当協会が指名）</th>
-  </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>最新情報のメルマガ<span>協会から業界関連最新情報をお届け</span></th>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-    </tr>
-    <tr>
-      <th>焼き餃子コミュニティ参加<span>焼き餃子に関する会員間の情報共有</span></th>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-    </tr>
-    <tr>
-      <th>協会会員への情報発信<span>新商品・プレスリリースを会員へ発信</span></th>
+      <th>個人会員限定イベント<span>餃子試食会、餃子工場見学、技術講習イベントなどをご案内いたします。</span></th>
       <td>&nbsp;</td>
     </tr>
     <tr>
-      <th>協会開催イベントご優待<span>イベントに特別枠でご招待</span></th>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-    </tr>
-    <tr>
-      <th>協会主催イベントご案内<span>協会主催イベントへ先行ご案内</span></th>
+      <th>お取り寄せ餃子データベース<span>焼き餃子協会が調査したデータベースの閲覧権限を提供します。</span></th>
       <td>&nbsp;</td>
     </tr>
     <tr>
-      <th>会員証書<span>会員登録後に郵送</span></th>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-    </tr>
-    <tr>
-      <th>名刺作成<span>有料にてロゴ入り名刺をお届け</span></th>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-    </tr>
-  </tbody>
-  <tfoot>
-  <tr>
-  <th>年会費</th>
-  <td><b>無料</b></td>
-  </tr>
-  </tfoot>
-  </table>
-
-  <table>
-  <thead>
-  <tr>
-  <th colspan="2" class="-member03">法人一般会員</th>
-  </tr>
-  <tr>
-  <th>会員対象<span>会員別に資格があります</span></th>
-  <th>法人</th>
-  </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>最新情報のメルマガ<span>協会から業界関連最新情報をお届け</span></th>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-    </tr>
-    <tr>
-      <th>焼き餃子コミュニティ参加<span>焼き餃子に関する会員間の情報共有</span></th>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-    </tr>
-    <tr>
-      <th>協会会員への情報発信<span>新商品・プレスリリースを会員へ発信</span></th>
+      <th>会員向け情報配信<span>新商品やキャンペーンなどの情報を会員に配信できます。</span></th>
       <td>&nbsp;</td>
     </tr>
     <tr>
-      <th>協会開催イベントご優待<span>イベントに特別枠でご招待</span></th>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <th>協会主催イベントご案内<span>協会主催イベントへ先行ご案内</span></th>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-    </tr>
-    <tr>
-      <th>会員証書<span>会員登録後に郵送</span></th>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <th>名刺作成<span>有料にてロゴ入り名刺をお届け</span></th>
+      <th>コラボイベント開催<span>当協会と共同のイベントを企画・開催</span></th>
       <td>&nbsp;</td>
     </tr>
   </tbody>
   <tfoot>
-  <tr>
-  <th>年会費</th>
-  <td><b>無料</b></td>
-  </tr>
-  </tfoot>
-  </table>
-
-  <table>
-  <thead>
-  <tr>
-  <th colspan="2" class="-member03">個人一般会員</th>
-  </tr>
-  <tr>
-  <th>会員対象<span>会員別に資格があります</span></th>
-  <th>個人</th>
-  </tr>
-  </thead>
-  <tbody>
     <tr>
-      <th>最新情報のメルマガ<span>協会から業界関連最新情報をお届け</span></th>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <th>会費（税込）</th>
+      <td>無料</td>
     </tr>
     <tr>
-      <th>焼き餃子コミュニティ参加<span>焼き餃子に関する会員間の情報共有</span></th>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
+      <td colspan="2">
+          <a href="https://yaki-gyoza.stores.jp/" class="btn -default" target="_blank">
+            フォロー
+          </a>
+      </td>
     </tr>
-    <tr>
-      <th>協会会員への情報発信<span>新商品・プレスリリースを会員へ発信</span></th>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <th>協会開催イベントご優待<span>イベントに特別枠でご招待</span></th>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <th>協会主催イベントご案内<span>協会主催イベントへ先行ご案内</span></th>
-      <td><img src="/assets/img/common/ic_check.png" alt=""></td>
-    </tr>
-    <tr>
-      <th>会員証書<span>会員登録後に郵送</span></th>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <th>名刺作成<span>有料にてロゴ入り名刺をお届け</span></th>
-      <td>&nbsp;</td>
-    </tr>
-  </tbody>
-  <tfoot>
-  <tr>
-  <th>年会費</th>
-  <td><b>無料</b></td>
-  </tr>
   </tfoot>
   </table>
 
   </div><!-- /.table-entry -->
 
-  <p class="note">入会には審査がございます。以下フォームよりご登録頂き、１週間以内に審査結果をお知らせいたします。</p>
+  <p class="note">焼き餃子協会の入会についてご不明な点がございましたら、遠慮なくお問い合わせください。</p>
   <div class="area-common__btn">
-    <a href="https://share.hsforms.com/1YiCxJyQBQcC1leQb3AJIdA31zvo" class="btn -default" target="_blank">
-      焼き餃子協会　入会申し込みフォーム
-    </a>
+    <nuxt-link to="/#contact" class="btn -default" v-smooth-scroll>焼き餃子協会　お問い合わせ</nuxt-link>
   </div>
 
   </div><!-- /.wrap -->
