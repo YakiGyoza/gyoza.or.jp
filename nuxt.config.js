@@ -8,7 +8,7 @@ module.exports = {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'format-detection', content: 'telephone=no' },
-      { hid: 'description', name: 'description', content: '焼き餃子を日本の文化として世界に発信する。日本の様々な餃子を、多くの人に知ってもらう。' },
+      { hid: 'description', name: 'description', property: 'og:description', content: '焼き餃子を日本の文化として世界に発信する。日本の様々な餃子を、多くの人に知ってもらう。' },
       { hid: 'og:site_name', property: 'og:site_name', content: '一般社団法人焼き餃子協会' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:url', property: 'og:url', content: 'https://www.gyoza.or.jp' },
