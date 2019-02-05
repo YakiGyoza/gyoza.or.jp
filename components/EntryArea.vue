@@ -101,9 +101,9 @@
   <tfoot>
     <tr>
     <th>会費（税込）</th>
-      <td><span>月会費</span>324円</td>
-      <td><span>年会費一口</span>10,000円</td>
-      <td><span>月会費</span>324円</td>
+      <td><span>月会費 一口</span>324円</td>
+      <td><span>年会費 一口</span>10,000円</td>
+      <td><span>月会費 一口</span>324円</td>
       <td><b>無料</b></td>
     </tr>
     <tr>
@@ -178,7 +178,7 @@
   <tfoot>
     <tr>
       <th>会費（税込）</th>
-      <td><span>月会費</span>324円</td>
+      <td><span>月会費 一口</span>324円</td>
     </tr>
     <tr>
       <td colspan="2">
@@ -233,7 +233,7 @@
   <tfoot>
     <tr>
       <th>会費（税込）</th>
-      <td><span>年会費一口</span>10,000円</td>
+      <td><span>年会費 一口</span>10,000円</td>
     </tr>
     <tr>
       <td colspan="2">
@@ -288,7 +288,7 @@
   <tfoot>
     <tr>
       <th>会費（税込）</th>
-      <td><span>月会費</span>324円</td>
+      <td><span>月会費 一口</span>324円</td>
     </tr>
     <tr>
       <td colspan="2">
@@ -357,12 +357,12 @@
 
   </div><!-- /.table-entry -->
 
-  <p class="note">焼き餃子協会の入会についてご不明な点がございましたら、遠慮なくお問い合わせください。</p>
+  <p class="note">賛助会員の月会費/年会費は一口以上何口でも承ります。<br />その他、焼き餃子協会の入会についてご不明な点がございましたら、遠慮なくお問い合わせください。</p>
   <div class="area-common__btn">
     <nuxt-link to="/#contact" class="btn -default" v-smooth-scroll>焼き餃子協会　お問い合わせ</nuxt-link>
   </div>
 
-  <p class="note">焼き餃子協会へのご寄付については、以下よりご応募承っております。ご寄付については一口1,000円から、ご請求書をお送りします。</p>
+  <p class="note">焼き餃子協会へのご寄付については、以下よりご応募承っております。</p>
   <div class="area-common__btn">
     <a href="https://share.hsforms.com/1aTS582V2RFmdjjue9EUtOw31zvo" class="btn -default" target="_blank">焼き餃子協会へのご寄付応募</a>
   </div>
