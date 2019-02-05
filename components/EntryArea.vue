@@ -362,6 +362,11 @@
     <nuxt-link to="/#contact" class="btn -default" v-smooth-scroll>焼き餃子協会　お問い合わせ</nuxt-link>
   </div>
 
+  <p class="note">焼き餃子協会へのご寄付については、以下よりご応募承っております。ご寄付については一口1,000円から、ご請求書をお送りします。</p>
+  <div class="area-common__btn">
+    <a href="https://share.hsforms.com/1aTS582V2RFmdjjue9EUtOw31zvo" class="btn -default" target="_blank">焼き餃子協会へのご寄付応募</a>
+  </div>
+
   </div><!-- /.wrap -->
   </section><!-- /.area-common -->
 </template>
