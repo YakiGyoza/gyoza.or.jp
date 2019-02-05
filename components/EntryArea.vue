@@ -124,7 +124,7 @@
           </a>
       </td>
       <td>
-          <a href="https://yaki-gyoza.stores.jp/iframe/store/follow_button" class="btn -default" target="_blank">
+          <a href="https://yaki-gyoza.stores.jp/" class="btn -default" target="_blank">
             フォロー
           </a>
       </td>
