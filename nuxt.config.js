@@ -14,6 +14,7 @@ module.exports = {
       { hid: 'og:url', property: 'og:url', content: 'https://www.gyoza.or.jp' },
       { hid: 'og:title', property: 'og:title', content: '一般社団法人焼き餃子協会' },
       { hid: 'og:image', property: 'og:image', content: 'https://www.gyoza.or.jp/img/ogp.png' },
+      { hid: 'fb:app_id', property: 'fb:app_id', content: '1917857498322261' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
