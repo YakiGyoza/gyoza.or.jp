@@ -20,7 +20,7 @@
   </div><!-- /.member-entry__contents -->
   </div><!-- /.member-entry__item -->
   <div class="member-entry__item -item03">
-  <h3 class="member-entry__member">準会員</h3>
+  <h3 class="member-entry__member">ニュース会員</h3>
   <div class="member-entry__contents">
   <p>焼き餃子協会の活動に関心があり、入会を検討している方。</p>
   </div><!-- /.member-entry__contents -->
@@ -37,33 +37,33 @@
       <th class="-member01">個人正会員</th>
       <th class="-member02">法人賛助会員</th>
       <th class="-member02">個人賛助会員</th>
-      <th class="-member03">準会員</th>
+      <th class="-member03">ニュース会員</th>
     </tr>
     <tr>
       <th>会員対象<span>会員別に資格があります</span></th>
       <th>当協会の審査基準を満たした個人会員</th>
       <th>当協会に賛助頂いた<br />法人・店舗</th>
       <th>月会費をお支払い頂いた個人</th>
-      <th>個人</th>
+      <th>誰でも</th>
     </tr>
     </thead>
   <tbody>
     <tr>
-      <th>焼き餃子協会のお知らせ<span>当協会の活動をお知らせいたします。</span></th>
+      <th>焼き餃子協会ニュース<span>当協会の活動をお知らせいたします。</span></th>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
     </tr>
     <tr>
-      <th>焼き餃子協会 会報<span>当協会から、餃子に関する最新情報やお得な情報をお届けいたします。</span></th>
+      <th>焼き餃子協会 会報<span>会員限定で、餃子に関する最新情報やお得な情報をお届けいたします。</span></th>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
       <td>&nbsp;</td>
     </tr>
     <tr>
-      <th>会員優待プログラム<span>会員限定ご優待をご案内いたします。</span></th>
+      <th>会員優待プログラム<span>会員限定の特別なご優待をご案内いたします。</span></th>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
@@ -124,8 +124,8 @@
           </a>
       </td>
       <td>
-          <a href="https://yaki-gyoza.stores.jp/" class="btn -default" target="_blank">
-            フォロー
+          <a href="https://mailchi.mp/acf6eb33ae12/yakigyozanews" class="btn -default" target="_blank">
+            登録
           </a>
       </td>
     </tr>
@@ -147,15 +147,15 @@
   </thead>
   <tbody>
     <tr>
-      <th>焼き餃子協会のお知らせ<span>当協会の活動をお知らせいたします。</span></th>
+      <th>焼き餃子協会ニュース<span>当協会の活動をお知らせいたします。</span></th>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
     </tr>
     <tr>
-      <th>焼き餃子協会 会報<span>当協会から、餃子に関する最新情報やお得な情報をお届けいたします。</span></th>
+      <th>焼き餃子協会 会報<span>会員限定で、餃子に関する最新情報やお得な情報をお届けいたします。</span></th>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
     </tr>
     <tr>
-      <th>会員優待プログラム<span>会員限定ご優待をご案内いたします。</span></th>
+      <th>会員優待プログラム<span>会員限定の特別なご優待をご案内いたします。</span></th>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
     </tr>
     <tr>
@@ -202,15 +202,15 @@
   </thead>
   <tbody>
     <tr>
-      <th>焼き餃子協会のお知らせ<span>当協会の活動をお知らせいたします。</span></th>
+      <th>焼き餃子協会ニュース<span>当協会の活動をお知らせいたします。</span></th>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
     </tr>
     <tr>
-      <th>焼き餃子協会 会報<span>当協会から、餃子に関する最新情報やお得な情報をお届けいたします。</span></th>
+      <th>焼き餃子協会 会報<span>会員限定で、餃子に関する最新情報やお得な情報をお届けいたします。</span></th>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
     </tr>
     <tr>
-      <th>会員優待プログラム<span>会員限定ご優待をご案内いたします。</span></th>
+      <th>会員優待プログラム<span>会員限定の特別なご優待をご案内いたします。</span></th>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
     </tr>
     <tr>
@@ -257,15 +257,15 @@
   </thead>
   <tbody>
     <tr>
-      <th>焼き餃子協会のお知らせ<span>当協会の活動をお知らせいたします。</span></th>
+      <th>焼き餃子協会ニュース<span>当協会の活動をお知らせいたします。</span></th>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
     </tr>
     <tr>
-      <th>焼き餃子協会 会報<span>当協会から、餃子に関する最新情報やお得な情報をお届けいたします。</span></th>
+      <th>焼き餃子協会 会報<span>会員限定で、餃子に関する最新情報やお得な情報をお届けいたします。</span></th>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
     </tr>
     <tr>
-      <th>会員優待プログラム<span>会員限定ご優待をご案内いたします。</span></th>
+      <th>会員優待プログラム<span>会員限定の特別なご優待をご案内いたします。</span></th>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
     </tr>
     <tr>
@@ -303,24 +303,24 @@
   <table>
   <thead>
   <tr>
-  <th colspan="2" class="-member03">準会員</th>
+  <th colspan="2" class="-member03">ニュース会員</th>
   </tr>
   <tr>
   <th>会員対象<span>会員別に資格があります</span></th>
-  <th>個人</th>
+  <th>誰でも</th>
   </tr>
   </thead>
   <tbody>
     <tr>
-      <th>焼き餃子協会のお知らせ<span>当協会の活動をお知らせいたします。</span></th>
+      <th>焼き餃子協会ニュース<span>当協会の活動をお知らせいたします。</span></th>
       <td><img src="/assets/img/common/ic_check.png" alt=""></td>
     </tr>
     <tr>
-      <th>焼き餃子協会 会報<span>当協会から、餃子に関する最新情報やお得な情報をお届けいたします。</span></th>
+      <th>焼き餃子協会 会報<span>会員限定で、餃子に関する最新情報やお得な情報をお届けいたします。</span></th>
       <td>&nbsp;</td>
     </tr>
     <tr>
-      <th>会員優待プログラム<span>会員限定ご優待をご案内いたします。</span></th>
+      <th>会員優待プログラム<span>会員限定の特別なご優待をご案内いたします。</span></th>
       <td>&nbsp;</td>
     </tr>
     <tr>
@@ -347,8 +347,8 @@
     </tr>
     <tr>
       <td colspan="2">
-          <a href="https://yaki-gyoza.stores.jp/" class="btn -default" target="_blank">
-            フォロー
+          <a href="https://mailchi.mp/acf6eb33ae12/yakigyozanews" class="btn -default" target="_blank">
+            登録
           </a>
       </td>
     </tr>
