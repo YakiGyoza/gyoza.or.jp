@@ -58,6 +58,9 @@ export default {
       }
     }).catch(console.error)
   },
+  mounted () {
+    !function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/8d4d00ca3be745bbc90666b5d/87073b737a4afdd7fa89ebdd1.js");
+  },
 }
 </script>
 

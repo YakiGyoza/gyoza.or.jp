@@ -20,6 +20,9 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Noto+Sans+JP' }
     ],
+    script: [
+      { src: '//js.hs-scripts.com/5132004.js', id: 'hs-script-loader', async: true, defer: true },
+    ],
   },
   css: [
     '@/assets/scss/_reset.scss',
@@ -47,6 +50,7 @@ module.exports = {
       }
     }
   },
+  transition: 'page',
   generate: {
     fallback: true
   },

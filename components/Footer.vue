@@ -16,12 +16,13 @@
             </div>
           </li>
           <li>
-            <a class="twitter-timeline" data-lang="en" data-width="220" data-height="340" href="https://twitter.com/YakiGyozaJapan?ref_src=twsrc%5Etfw">Tweets by YakiGyozaJapan</a>
+            <a class="twitter-timeline" data-width="220" data-height="340" href="https://twitter.com/YakiGyozaJapan?ref_src=twsrc%5Etfw">Tweets by YakiGyozaJapan</a>
           </li>
         </ul><!-- /.unit-footer__sns -->
       </div><!-- /.unit-footer -->
     </div><!-- /.wrap -->
     <p class="copyright"><small>©2018 一般社団法人焼き餃子協会 <br class="display-sp">All Rights Reserved.</small></p>
+    <div id="fb-root"> </div>
   </footer><!-- /.footer -->
 </template>
 
@@ -30,10 +31,18 @@ export default {
   head() {
     return {
       script: [
-        { src: '/assets/js/fb-sdk.js', async: true },
-        { src: 'https://platform.twitter.com/widgets.js', charset: 'utf-8', async: true }
+        { src: 'https://platform.twitter.com/widgets.js', charset: 'utf-8', async: true },
       ]
     }
+  },
+  mounted () {
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v3.2&appId=115573325196115&autoLogAppEvents=1';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
   }
 }
 </script>
