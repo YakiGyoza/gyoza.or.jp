@@ -115,7 +115,7 @@
       </td>
       <td>
           <a href="https://share.hsforms.com/1ohpGfLTRSnOaUqGMxMUwcQ31zvo" class="btn -default" target="_blank">
-            お問い合わせ
+            申し込み
           </a>
       </td>
       <td>
@@ -237,8 +237,8 @@
     </tr>
     <tr>
       <td colspan="2">
-          <a href="https://share.hsforms.com/1ohpGfLTRSnOaUqGMxMUwcQ31zvo" class="btn -default" target="_blank">
-            お問い合わせ
+          <a href="https://share.hsforms.com/1bECsBdEiRFOKwqbwiF7qeA31zvo" class="btn -default" target="_blank">
+            申し込み
           </a>
       </td>
     </tr>
@@ -360,6 +360,9 @@
   <p class="note">賛助会員の月会費/年会費は一口以上何口でも承ります。<br />その他、焼き餃子協会の入会についてご不明な点がございましたら、遠慮なくお問い合わせください。</p>
   <div class="area-common__btn">
     <nuxt-link to="/#contact" class="btn -default" v-smooth-scroll>焼き餃子協会　お問い合わせ</nuxt-link>
+  </div>
+  <div class="area-common__btn">
+    <a href="/assets/pdf/sponsor-entry.pdf" class="btn -default" target="_blank">法人賛助会員募集のご案内資料 (PDF)</a>
   </div>
 
   <p class="note">焼き餃子協会へのご寄付については、以下よりご応募承っております。</p>
