@@ -114,7 +114,7 @@
           </a>
       </td>
       <td>
-          <a href="https://share.hsforms.com/1ohpGfLTRSnOaUqGMxMUwcQ31zvo" class="btn -default" target="_blank">
+          <a href="https://share.hsforms.com/1bECsBdEiRFOKwqbwiF7qeA31zvo" class="btn -default" target="_blank">
             申し込み
           </a>
       </td>
