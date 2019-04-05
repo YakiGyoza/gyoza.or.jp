@@ -13,6 +13,7 @@
         <li><nuxt-link to="/#about" v-smooth-scroll>焼き餃子協会について</nuxt-link></li>
         <li><nuxt-link to="/#news" v-smooth-scroll>お知らせ</nuxt-link></li>
         <li><nuxt-link to="/#entry" v-smooth-scroll>入会案内</nuxt-link></li>
+        <li><nuxt-link to="/members/">賛助会員の皆様</nuxt-link></li>
         <li><nuxt-link to="/#contact"  v-smooth-scroll>お問い合わせ</nuxt-link></li>
       </ul>
 
