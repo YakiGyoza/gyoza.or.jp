@@ -59,6 +59,20 @@
           </div>
           <a href="https://www.itsuji.co.jp/" target="_blank"></a>
         </div>
+        <div class="company">
+          <h3>
+            <img src="~/assets/img/members/tentus.jp.png" alt="株式会社テンタス" /><br />
+            株式会社テンタス
+          </h3>
+          <div class="comment">
+            <h4>焼き餃子協会によるご紹介</h4>
+            <p>
+              デジタルプロモーションを行う仲間のために、勉強会と餃子の会を開催。<br />
+              焼き餃子協会がセレクトした餃子が、様々な立場の方々の交流のきっかけになっています。
+            </p>
+          </div>
+          <a href="https://tentus.jp/" target="_blank"></a>
+        </div>
       </article>
 
       <article>
